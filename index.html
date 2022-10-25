@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=|, initial-scale=1.0">
+  <title>SARUNI</title>
+  <meta name="description" content="SARUNI">
+
+  <!-- Prefetch -->
+  <link rel="prefetch" href="nosotros.html" as="document">
+
+  <!-- Preload -->
+  <link rel="preload" href="css/normalize.css" as="style">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/nivo-slider.css">
+  <link rel="stylesheet" href="css/mi-slider.css">
+
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"  crossorigin="crossorigin" as="font">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+  <script src="js/jquery.nivo.slider.js"></script>
+  
+  <script type="text/javascript"> 
+      $(window).on('load', function() {
+          $('#slider').nivoSlider(); 
+      }); 
+  </script>
+  <link rel="preload" href="css/style.css" as="style">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+    <header>
+      <header class="header">
+        <div class="contenedor" >
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <img class="logo__nombre no-margin"src="img/logo.png" alt="SARUNI">
+                </a>
+
+                <nav class="navegacion">
+                    <a href="inicio.html" class="navegacion__enlace">Incio</a>
+                    <a href="productos.html" class="navegacion__enlace">Productos</a>
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                </nav>
+            </div>
+        </div>
+    </header> 
+
+   <section class="">
+    <div class="  slider-wrapper theme-mi-slider">
+		<div id="slider" class="nivoSlider">     
+		    <img src="img/mesa1.png" alt="" title="#htmlcaption1" />    
+		    <img src="img/mesa2.png" alt="" title="#htmlcaption2" />    
+		    <img src="img/mesa3.png" alt="" title="#htmlcaption3" />  
+            <img src="img/mesa4.png" alt="" title="#htmlcaption3" />     
+		</div> 
+		 <div id="htmlcaption1" class="nivo-html-caption">     
+		<h2 class="no-margin">SARUNI</h2>
+        <p class="no-margin parrafo">Libre en toda tu expreción</p>
+            <a class=" boton boton--secundario" href="#">Libretas</a>
+		</div>
+
+        <div id="htmlcaption1" class="nivo-html-caption header__texto">     
+            <h2 class="no-margin">SARUNI</h2>
+            <p class="no-margin parrafo">Libre en toda tu expreción</p>
+                <a class=" boton boton--secundario" href="#">Libretas</a>
+        </div>
+	</div>
+   </section>
+   
+
+ 
+    <div class="contenedor-secu contenido-principal">
+        <main class="blog">
+           
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="img/libreta.PNG" alt="imagen blog"> 
+                    </picture>
+                </div>
+                <a class=" boton boton--secundario boton--libreta" href="#">Ver Más</a>
+            </article>
+           
+        </main>
+
+
+
+        <aside class="sidebar">
+            <h3>Diseñe una portada personalizada para su libreta única</h3>
+
+            <ul class="cursos">
+                
+                <li class="widget-curso">
+               
+                </li>
+                <li class="espe">
+                    Dimenciones 15,5cm x 21,8cm 
+                 </li>
+                <li class="espe">
+                    100 hojas a cuadros o lineas 
+                 </li>
+                 <li class="espe">
+                    Portada y contraportada personalizables con acabado brillante
+                 </li>
+            </ul>
+
+            <p aling="justify">Una libreta personalizada es una manera eficaz de hacer correr la voz para dar a conocer su marca o próximo evento. Además, puede utilizarse para colocar su marca en una promoción de la oficina o como un sencillo regalo para personas cercanas.
+            </p>
+            <p aling="justify">¿Está listo para comenzar a crear? Comience explorando nuestra galería de plantillas de diseños totalmente personalizables. Una vez haya encontrado su favorita, personalícela agregando sus propios detalles y eligiendo la cantidad que necesite. Y nosotros nos encargaremos del resto. Sus libretas personalizadas llegarán luciendo de lo mejor y listas para destacar.</p>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor-secu" >
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <img class="logo__nombre no-margin"src="img/logo.png" alt="SARUNI">
+                </a>
+
+                <nav class="navegacion">
+                    <a href="inicio.html" class="navegacion__enlace">Incio</a>
+                    <a href="productos.html" class="navegacion__enlace">Productos</a>
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                </nav>
+            </div>
+            <p class="footer__p">Todos los derechos reservados Nave Tech</p>
+        </div>
+        
+    </footer>
+</body>
+</html> 
+
