@@ -1,2 +1,2 @@
-# saruni
+# saruni.ec
 saruni prueba
