@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=|, initial-scale=1.0">
-  <title>SARUNI</title>
-  <meta name="description" content="SARUNI">
+  <title>Nave Tech</title>
+  <meta name="description" content="Nave Tech">
 
   <!-- Prefetch -->
   <link rel="prefetch" href="nosotros.html" as="document">
-
   <!-- Preload -->
   <link rel="preload" href="css/normalize.css" as="style">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/nivo-slider.css">
   <link rel="stylesheet" href="css/mi-slider.css">
+
 
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"  crossorigin="crossorigin" as="font">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -33,6 +33,9 @@
 
 
 <body>
+    <audio autoplay>
+        <source src="img/intro.mp3" type="audio/mpeg">
+      </audio>
     <header>
       <header class="header">
         <div class="contenedor" >
@@ -40,11 +43,11 @@
                 <a class="logo" href="index.html">
                     <img class="logo__nombre no-margin"src="img/logo.png" alt="SARUNI">
                 </a>
-
-                <nav class="navegacion">
-                    <a href="inicio.html" class="navegacion__enlace">Incio</a>
-                    <a href="productos.html" class="navegacion__enlace">Productos</a>
-                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                <a href="/" class="navegacion__enlace">NAVE TECH</a>
+                <nav class="navegacion navbar">
+                    <a href="/" class="navegacion__enlace">Incio</a>
+                    <a href="laptops.html" class="navegacion__enlace">Productos</a>
+                    <a href="inventario.html" class="navegacion__enlace">Inventario</a>
                 </nav>
             </div>
         </div>
@@ -52,23 +55,13 @@
 
    <section class="">
     <div class="  slider-wrapper theme-mi-slider">
-		<div id="slider" class="nivoSlider">     
+        <audio id="m" src="img/click.mp3"></audio>
+		<div onmousedown="document.getElementById('m').play()" id="slider" class="nivoSlider">     
 		    <img src="img/mesa1.png" alt="" title="#htmlcaption1" />    
 		    <img src="img/mesa2.png" alt="" title="#htmlcaption2" />    
 		    <img src="img/mesa3.png" alt="" title="#htmlcaption3" />  
             <img src="img/mesa4.png" alt="" title="#htmlcaption3" />     
 		</div> 
-		 <div id="htmlcaption1" class="nivo-html-caption">     
-		<h2 class="no-margin">SARUNI</h2>
-        <p class="no-margin parrafo">Libre en toda tu expreción</p>
-            <a class=" boton boton--secundario" href="#">Libretas</a>
-		</div>
-
-        <div id="htmlcaption1" class="nivo-html-caption header__texto">     
-            <h2 class="no-margin">SARUNI</h2>
-            <p class="no-margin parrafo">Libre en toda tu expreción</p>
-                <a class=" boton boton--secundario" href="#">Libretas</a>
-        </div>
 	</div>
    </section>
    
@@ -83,7 +76,7 @@
                         <img loading="lazy" src="img/libreta.PNG" alt="imagen blog"> 
                     </picture>
                 </div>
-                <a class=" boton boton--secundario boton--libreta" href="#">Ver Más</a>
+                <a class=" boton boton--secundario boton--libreta" href="laptops.html">Ver Productos</a>
             </article>
            
         </main>
@@ -91,27 +84,11 @@
 
 
         <aside class="sidebar">
-            <h3>Diseñe una portada personalizada para su libreta única</h3>
-
-            <ul class="cursos">
-                
-                <li class="widget-curso">
-               
-                </li>
-                <li class="espe">
-                    Dimenciones 15,5cm x 21,8cm 
-                 </li>
-                <li class="espe">
-                    100 hojas a cuadros o lineas 
-                 </li>
-                 <li class="espe">
-                    Portada y contraportada personalizables con acabado brillante
-                 </li>
-            </ul>
-
-            <p aling="justify">Una libreta personalizada es una manera eficaz de hacer correr la voz para dar a conocer su marca o próximo evento. Además, puede utilizarse para colocar su marca en una promoción de la oficina o como un sencillo regalo para personas cercanas.
+            <h3>Tecnología A Tu Alcance</h3>
+            <p aling="justify">Nave Tech es una empresa tecnológica enfocada en la venta de artículos tecnológicos. Nuestra garantía es nuestra calidad de servicio que proporcionamos a nuestros clientes. Los productos son totalmente originales.
             </p>
-            <p aling="justify">¿Está listo para comenzar a crear? Comience explorando nuestra galería de plantillas de diseños totalmente personalizables. Una vez haya encontrado su favorita, personalícela agregando sus propios detalles y eligiendo la cantidad que necesite. Y nosotros nos encargaremos del resto. Sus libretas personalizadas llegarán luciendo de lo mejor y listas para destacar.</p>
+            <p aling="justify">Nuestro objetivo es proporcionar a nuestro clientes una satisfacción al comprar su primera laptops, audífonos, pc, entre otros. Nave Tech esta ubicado en Quito, Av Colon y Yánez Pinzón. 
+            </p>
         </aside>
     </div>
 
